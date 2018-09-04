@@ -20,7 +20,10 @@ public class ListaClienteActivity extends Activity {
         ArrayList<String> clientes = this.clientes();
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, clientes);
         listView.setAdapter(adapter);
+    }
 
+    private ArrayList<String> busca(String chave){
+        return null;
     }
 
     private ArrayList <String> clientes() {
